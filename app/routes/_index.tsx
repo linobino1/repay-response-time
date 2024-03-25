@@ -15,6 +15,9 @@ export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
       <h1>Welcome to RePay</h1>
+      <p className="text-red-500">
+        with unocss! <div className="i-ion:warning" />
+      </p>
       <ul className="list-disc">
         <li>
           <a target="_blank" href="/admin" rel="noreferrer">
